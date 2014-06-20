@@ -18,6 +18,7 @@
 # limitations under the License.
 #
 
+default['subversion']['version'] = '1.7'
 default['subversion']['repo_dir'] = '/srv/svn'
 default['subversion']['repo_name'] = 'repo'
 default['subversion']['server_name'] = 'svn'

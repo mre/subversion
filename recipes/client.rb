@@ -31,6 +31,7 @@ when 'windows'
 else
   package 'subversion' do
     action :install
+    version node['subversion']['version']
   end
 
   extra_packages = value_for_platform_family(
