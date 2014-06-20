@@ -26,6 +26,7 @@ Attributes
 ----------
 See `attributes/default.rb` for default values. The attributes are used in the server recipe.
 
+* `node['subversion']['version']` - version to install
 * `node['subversion']['repo_dir']` - filesystem location of the repository to serve.
 * `node['subversion']['repo_name']` - name of the repository to serve up.
 * `node['subversion']['server_name']` - server name used in the svn vhost.
